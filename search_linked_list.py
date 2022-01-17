@@ -31,7 +31,8 @@ class single_linked_list:
         if val == node:
             return "Searched value is available", node
         return "Searched value is not available"
-
+    
+          
 
 items = single_linked_list()
 items.append_linked_list(34)
